@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body{
+            background-color: blue;
+            color: white;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição.</p>
+    <script>
+
+        /*Para converter string para número deve utilizar as propiedades "Number.parseFloat", "Number.parseInt" e "Number(converte para float ou para Int)"*/
+
+        /*Para converter number para string deve utilizar as propiedades ().toString() e String():
+        var n3 = window.prompt("Digite outro número: ").toString()
+        var n3 = String(window.prompt("Digite outro número: "))
+        soma.toString()
+        string(soma)
+        */
+
+      var n1 = window.prompt("Digite um número: ")
+      n1 = parseInt(n1)
+
+      var n2 = Number(window.prompt("Digite outro número: "))
+      var n3 = Number.parseFloat(window.prompt("Digite outro número: "))
+      var soma = n1+n2 + n3;
+      window.alert("A soma entre os valores são: "+ soma)
+      window.alert(`A soma entre ${n1} + ${n2} + ${n3} é igual a ${soma}`)
+
+
+
+      var s = 'javaScript'
+      window.alert(`A palavra ${s.length} letras`)
+      //s.length -> para descobrir quantos caracteres a string tem
+
+      var m = 'javaString'
+      window.alert(m.toLocaleUpperCase())
+      //s.toUpperCase() -> para transformar a string em maiúsculo
+
+      var M = 'JAVA'
+      window.alert(M.toLocaleLowerCase())
+      //s.toLowerCase() -> para transformar a string em minúsculo
+    </script>
+</body>
+</html>
