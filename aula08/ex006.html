@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        Operadores relacionais -> >, <, >=, <=, == e !=
+        */
+
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+        /*
+        Comparação com Operador de Igualdade (==)
+
+        Copiar código
+        let a = 5;
+        let b = '5';
+
+        console.log(a == b); // true
+        Aqui, a == b retorna true porque o operador de igualdade converte a string '5' para o número 5 antes de fazer a comparação, resultando em dois valores iguais.
+        */
+
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+        /*
+        Exemplo de Operador de Identidade (===)
+
+        Copiar código
+        let a = 5;
+        let b = '5';
+
+console.log(a === b); // false
+No exemplo acima, a comparação a === b retorna false porque a é um número (5) e b é uma string ('5'). Mesmo que os valores pareçam iguais, seus tipos são diferentes, então o operador de identidade retorna false.
+        */
+
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+        /*
+        Desigualdade (!=):
+
+        Compara dois valores para verificar se são diferentes, realizando coerção de tipo se necessário.
+        Exemplo:
+
+        console.log(5 != '5'); // false, porque a string '5' é convertida para o número 5
+        console.log(true != 1); // false, porque true é convertido para 1
+        */
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+        /*
+        Desigualdade estrita (!==):
+
+        Compara dois valores para verificar se são exatamente diferentes, sem realizar coerção de tipo.
+        Exemplo:
+
+        console.log(5 !== '5'); // true, porque são de tipos diferentes
+        console.log(true !== 1); // true, porque são de tipos diferentes
+        */
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+        /*
+        Operadores lógicos
+        ! -> negação
+        && -> conjução = e
+        || -> disjunção = ou
+        */
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+        /*
+        Nível de precedência do JS
+        1. (), **, *, /, %, +, -
+        2. >, <, >=, <=, == e !=
+        3. ! && ||
+        */
+
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+        /*
+        Operadores ternários(?,:)
+
+        O operador ternário em JavaScript, também conhecido como operador condicional, é uma forma concisa de realizar uma avaliação condicional e retornar um valor baseado no resultado dessa avaliação. É uma alternativa compacta ao uso de estruturas if...else para atribuir valores ou executar pequenas operações.
+
+        A sintaxe do operador ternário é a seguinte:
+
+        condição ? expressão1 : expressão2;
+
+        condição: Uma expressão que é avaliada como verdadeira (true) ou falsa (false).
+        expressão1: O valor ou expressão que será retornado se a condição for verdadeira.
+        expressão2: O valor ou expressão que será retornado se a condição for falsa.
+        Exemplo Básico
+
+        let idade = 18;
+        let podeVotar = (idade >= 18) ? "Pode votar" : "Não pode votar";
+        console.log(podeVotar); // Saída: "Pode votar"
+        */
+    </script>
+</body>
+</html>
