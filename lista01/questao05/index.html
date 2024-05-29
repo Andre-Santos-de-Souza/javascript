@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" method="get" autocomplete="on" id="formulario">
+        <fieldset id="fieldset-soma">
+            <legend>Troco</legend>
+
+            <label for="precoProduto">Preço unitário do produto:</label>
+            <input type="number" name="precoProduto" id="precoProduto">
+
+            <label for="quantidadeProduto">Quantidade comprada</label>
+            <input type="number" name="quantidadeProduto" id="quantidadeProduto">
+
+            <label for="dinheiroRecebido">Dinheiro recebido</label>
+            <input type="number" name="dinheiroRecebido" id="dinheiroRecebido">
+
+            <input type="button" value="Calcular" id="calcularBtn">
+        </fieldset>
+        <div id="resultado"></div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
