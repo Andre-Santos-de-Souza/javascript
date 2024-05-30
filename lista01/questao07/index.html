@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circulo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" method="get" autocomplete="on" id="formulario">
+        <fieldset id="fieldset-pagamento">
+            <legend>Pagamento</legend>
+
+            <label for="idNome">Nome</label>
+            <input type="text" name="nome" id="idNome">
+
+            <label for="valorHora">Valor por hora</label>
+            <input type="number" name="valorHora" id="valorHora">
+
+            <label for="horasTrabalhadas">Horas trabalhadas</label>
+            <input type="number" name="horasTrabalhadas" id="horasTrabalhadas">
+            
+            <input type="button" value="Calcular" id="calcularBtn">
+        </fieldset>
+        <div id="resultado"></div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
